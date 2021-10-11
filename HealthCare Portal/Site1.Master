@@ -1,0 +1,92 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="HealthCare_Portal.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style3 {
+            height: 429px;
+            width: 343px;
+        }
+        .auto-style5 {
+            width: 94%;
+            height: 100%;
+        }
+        .auto-style7 {
+            width: 343px;
+        }
+        .auto-style8 {
+            width: 221px;
+            height: 23px;
+        }
+        .auto-style9 {
+            width: 693px;
+        }
+        .auto-style10 {
+            width: 534px;
+            height: 29px;
+        }
+        .auto-style11 {
+            width: 343px;
+            height: 23px;
+        }
+        .auto-style12 {
+            height: 23px;
+        }
+        .auto-style13 {
+            width: 343px;
+            height: 26px;
+        }
+        .auto-style14 {
+            height: 26px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table class="auto-style1">
+            <tr>
+                <td class="auto-style11" style="background-color: #99CCFF"><a href="About.aspx">ABOUT</a> </td>
+                <td class="auto-style8" style="background-color: #99CCFF">&nbsp;<h3 class="auto-style10" style="text-align: center; font-style: oblique;">Your Health Matters</h3></td>
+                <td class="auto-style12" style="background-color: #99CCFF">LogIn</td>
+                
+            </tr>
+            <tr>
+                <td class="auto-style3">
+                    
+                </td>
+                <td style="vertical-align: top">
+                    <table class="auto-style5" style="vertical-align: top">
+                        <tr>
+                           
+                            <td style="vertical-align: top" class="auto-style9">
+                                <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                                    page Under construction
+                                </asp:ContentPlaceHolder>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style13" style="background-color: #99CCFF"></td>
+                <td class="auto-style14" style="background-color: #99CCFF"></td>
+                <td style="background-color: #99CCFF"></td>
+            </tr>
+            <tr>
+                <td class="auto-style7">&nbsp;</td>
+            </tr>
+        </table>
+
+    </div>
+    </form>
+</body>
+</html>
